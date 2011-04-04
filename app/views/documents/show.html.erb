@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= @document.title %></h1>
+
+<article id="content" class="border">
+  <%= @document.content %>
+</article>
+<aside class="border">
+  <section id="twitter">
+    <h2>Twitter</h2>
+  </section>
+  <section id="instagram">
+    <h2>Instagram</h2>
+  </section>
+  <section id="youtube">
+    <h2>Youtube</h2>
+  </section>
+</aside>
+
+<ul class="in-list">
+  <li><%= link_to 'Edit', edit_document_path(@document) %></li>
+  <li><%= link_to 'Back', documents_path %></li>
+</ul>

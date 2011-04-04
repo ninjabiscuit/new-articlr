@@ -1,0 +1,62 @@
+/* 
+ * Non-semantic helper classes 
+ */
+
+/* for image replacement */
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+
+/* Hide for both screenreaders and browsers
+   css-discuss.incutio.com/wiki/Screenreader_Visibility */
+.hidden { display: none; visibility: hidden; } 
+
+/* Hide only visually, but have it available for screenreaders 
+   www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden  */
+.visuallyhidden, .js .unobtrusive form, .js input.unobtrusive  { position: absolute !important;    
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px); }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* >> The Magnificent CLEARFIX: Updated to prevent margin-collapsing on child elements << j.mp/bestclearfix */
+.clearfix:before, .clearfix:after {
+  content: "\0020"; display: block; height: 0; visibility: hidden;	
+} 
+
+.clearfix:after, .clear { clear: both; }
+/* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
+.clearfix { zoom: 1; }
+
+/* ====== media ====== (Thnx @Stubbornella) */
+.media, .bd {overflow:hidden; _overflow:visible; zoom:1;}
+.media .img {float:left; margin-right: 10px;}
+.media .img img{display:block;}
+.media .imgExt{float:right; margin-left: 10px;}
+
+/* ====== inline list ====== */
+.in-list li, .in-list div, .in-list form {
+  display:inline;
+}
+
+/* ====== float list ====== */
+.fl-list li {
+  float:left;
+}
+
+/* ====== disc list ====== */
+.disc-list li {
+  list-style:disc;
+  margin:0 0 10px 1em;
+}
+
+.disc-list {
+  margin-bottom:25px;
+}
+
+.border {
+  border:2px solid #444;
+  -webkit-box-shadow: 4px 4px 0px #999; /* Saf3.0+, Chrome */
+  -moz-box-shadow: 4px 4px 0px #999; /* FF3.5+ */
+  box-shadow: 4px 4px 0px #999; /* Opera 10.5, IE9, Chrome 10+ */
+  padding:10px 20px 20px;
+}

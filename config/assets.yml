@@ -1,0 +1,23 @@
+package_assets: on # (on, off, always)
+compress_assets: on # (on, off)
+gzip_assets: on # (on, off)
+javascript_compressor: yui # (yui, closure)
+
+javascripts:
+  common:
+    - public/javascripts/aloha/aloha.js
+    - public/javascripts/aloha/plugins/com.gentics.aloha.plugins.Format/plugin.js
+    - public/javascripts/aloha/plugins/com.gentics.aloha.plugins.Table/plugin.js
+    - public/javascripts/aloha/plugins/com.gentics.aloha.plugins.List/plugin.js
+    - public/javascripts/aloha/plugins/com.gentics.aloha.plugins.Link/plugin.js
+    - public/javascripts/libs/underscore.js
+    - public/javascripts/libs/backbone.js
+    - public/javascripts/libs/backbone.localStorage.js
+    - public/javascripts/plugins.js
+    - public/javascripts/application.js
+    
+stylesheets:
+  common:
+    - public/stylesheets/reset.css
+    - public/stylesheets/helper.css
+    - public/stylesheets/style.css

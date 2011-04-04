@@ -1,0 +1,19 @@
+#container {
+  width:900px;
+  margin:50px auto 0;
+}
+
+article {
+  float:left;
+  width:600px;
+  min-height:200px;
+}
+
+aside {
+  float:right;
+  width:192px;
+}
+
+header {
+  margin-bottom:30px;
+}

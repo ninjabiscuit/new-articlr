@@ -1,0 +1,15 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  UI Developer: Andrew Walker
+  Site: articlr.com
+  Twitter: @ninjabiscuit
+  Location: London
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: Modernizr, dojo, Backbone
+  Software:
+
